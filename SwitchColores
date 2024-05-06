@@ -1,0 +1,39 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char C;
+
+    cout << "Ingrese una letra para defini9r un color, el valor a ingresar puede ser: a, b, c, d, e, f, g.\n";
+    cin >> C;
+    switch (C)
+    {
+    case 'a':
+        cout << "Su color es Amarillo.";
+        break;
+    case 'b':
+        cout << "Su color es Blanco.";
+        break;
+    case 'c':
+        cout << "Su color es Celeste.";
+        break;
+    case 'd':
+        cout << "Su color es Ocre.";
+        break;
+    case 'e':
+        cout << "Su color Azul.";
+        break;
+    case 'f':
+        cout << "Su color es Verde.";
+        break;
+    case 'g':
+        cout << "Su color es Gris.";
+        break;
+    default:
+        cout << "Dato invalido.";
+    }
+    
+    return 0;
+}
